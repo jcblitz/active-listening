@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="0.019" failures="0" name="net.blitzstein.al.messenger.dao.UserDaoImplIntegrationTest">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Libraries" name="sun.boot.library.path"/>
+    <property value="1.5.0_16-133" name="java.vm.version"/>
+    <property value="true" name="awt.nativeDoubleBuffering"/>
+    <property value="false" name="gopherProxySet"/>
+    <property value="Apple Inc." name="java.vm.vendor"/>
+    <property value="http://www.apple.com/" name="java.vendor.url"/>
+    <property value=":" name="path.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="US" name="user.country"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="/Users/jared/Documents/programming/java/workspaces/ActiveListeningNetbeans/messenger" name="user.dir"/>
+    <property value="1.5.0_16-b06-284" name="java.runtime.version"/>
+    <property value="true" name="netbeans.deploy"/>
+    <property value="apple.awt.CGraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="/Users/jared/Documents/programming/java/workspaces/ActiveListeningNetbeans/messenger" name="basedir"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="i386" name="os.arch"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="Mac OS X" name="os.name"/>
+    <property value="/usr/share/maven/bin/m2.conf" name="classworlds.conf"/>
+    <property value="MacRoman" name="sun.jnu.encoding"/>
+    <property value=".:/Users/jared/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" name="java.library.path"/>
+    <property value="/Users/jared/Documents/programming/java/workspaces/ActiveListeningNetbeans/messenger/target/classes:/Users/jared/Documents/programming/java/workspaces/ActiveListeningNetbeans/messenger/target/test-classes:/Users/jared/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jared/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/jared/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/jared/.m2/repository/org/slf4j/slf4j-log4j12/1.5.2/slf4j-log4j12-1.5.2.jar:/Users/jared/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/jared/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/jared/.m2/repository/org/mortbay/jetty/servlet-api/2.5-6.0.1/servlet-api-2.5-6.0.1.jar:/Users/jared/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/jared/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/jared/.m2/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar:/Users/jared/.m2/repository/org/springframework/spring-tx/2.5.6/spring-tx-2.5.6.jar:/Users/jared/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/jared/.m2/repository/javassist/javassist/3.4.GA/javassist-3.4.GA.jar:/Users/jared/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/jared/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/jared/.m2/repository/opensymphony/sitemesh/2.3/sitemesh-2.3.jar:/Users/jared/.m2/repository/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/Users/jared/.m2/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar:/Users/jared/.m2/repository/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.jar:/Users/jared/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/jared/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/jared/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/jared/.m2/repository/org/springframework/spring-test/2.5.6/spring-test-2.5.6.jar:/Users/jared/.m2/repository/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar:/Users/jared/.m2/repository/org/springframework/spring-jdbc/2.5.6/spring-jdbc-2.5.6.jar:/Users/jared/.m2/repository/org/springframework/spring-orm/2.5.6/spring-orm-2.5.6.jar:/Users/jared/.m2/repository/junit/junit/4.4/junit-4.4.jar:/Users/jared/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/jared/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/jared/.m2/repository/org/hibernate/hibernate-core/3.3.1.GA/hibernate-core-3.3.1.GA.jar:/Users/jared/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/jared/.m2/repository/commons-pool/commons-pool/1.3/commons-pool-1.3.jar:/Users/jared/.m2/repository/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:src/main/webapp/WEB-INF/:" name="surefire.test.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="10.5.6" name="os.version"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="http.nonProxyHosts"/>
+    <property value="/Users/jared" name="user.home"/>
+    <property value="America/New_York" name="user.timezone"/>
+    <property value="apple.awt.CPrinterJob" name="java.awt.printerjob"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="MacRoman" name="file.encoding"/>
+    <property value="jared" name="user.name"/>
+    <property value="/usr/share/maven/boot/classworlds-1.1.jar" name="java.class.path"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="en" name="user.language"/>
+    <property value="apple.awt.CToolkit" name="awt.toolkit"/>
+    <property value="mixed mode, sharing" name="java.vm.info"/>
+    <property value="1.5.0_16" name="java.version"/>
+    <property value="/Users/jared/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/ext" name="java.ext.dirs"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/ui.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/laf.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/sunrsasign.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/charsets.jar" name="sun.boot.class.path"/>
+    <property value="Apple Inc." name="java.vendor"/>
+    <property value="/usr/share/maven" name="maven.home"/>
+    <property value="/Users/jared/.m2/repository" name="localRepository"/>
+    <property value="/" name="file.separator"/>
+    <property value="http://bugreport.apple.com/" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="1050.1.5.0_16-284" name="mrj.version"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="socksNonProxyHosts"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="ftp.nonProxyHosts"/>
+    <property value="" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="net.blitzstein.al.messenger.dao.UserDaoImplIntegrationTest" time="0.014" name="testFind"/>
+</testsuite>
